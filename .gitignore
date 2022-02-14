@@ -1,2 +1,5 @@
-FMP/*
-Resources/*
+FMP
+.cache
+.local
+.ssh
+.vscode-server

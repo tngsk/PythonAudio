@@ -1,0 +1,15 @@
+[core]
+	excludesfile = /Users/nagasaki/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = tngsk
+	email = lab.nagasaki@gmail.com
+[commit]
+	template = /Users/nagasaki/.stCommitMsg
+[credential]
+	helper = "!f() { /home/penguin/.vscode-server/bin/f80445acd5a3dadef24aa209168452a3d97cc326/node /tmp/vscode-remote-containers-19948df107923093a7edbe08f558e59b56f6ac46.js $*; }; f"
