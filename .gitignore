@@ -1,0 +1,6 @@
+FMP
+.cache
+.local
+.ssh
+.vscode-server
+.ipython*
