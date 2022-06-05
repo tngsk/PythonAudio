@@ -4,3 +4,4 @@ FMP
 .ssh
 .vscode-server
 .ipython*
+.DS_Store
